@@ -28,15 +28,19 @@ export default function Q4() {
 
 	const firstleftbut = () => {
 		if(mode == "left"){
-			if (first) {
+			if (l1) {
+				return;
+			}
+			// if (first) {
 				let element = document.getElementsByClassName("c1")[0];
-				element.classList.replace("btn-primary", "btn-light");
-				element = document.getElementsByClassName("c2")[0];
-				element.classList.replace("btn-primary", "btn-light");
-				element = document.getElementsByClassName("c3")[0];
-				element.classList.replace("btn-primary", "btn-light");
-				element = document.getElementsByClassName("c4")[0];
-				element.classList.replace("btn-primary", "btn-light");
+				element.classList.add("border");
+				// element.classList.replace("btn-primary", "btn-light");
+				// element = document.getElementsByClassName("c2")[0];
+				// element.classList.replace("btn-primary", "btn-light");
+				// element = document.getElementsByClassName("c3")[0];
+				// element.classList.replace("btn-primary", "btn-light");
+				// element = document.getElementsByClassName("c4")[0];
+				// element.classList.replace("btn-primary", "btn-light");
 				
 				element = document.getElementsByClassName("d1")[0];
 				element.classList.replace("btn-light", "btn-primary");
@@ -46,11 +50,8 @@ export default function Q4() {
 				element.classList.replace("btn-light", "btn-primary");
 				element = document.getElementsByClassName("d4")[0];
 				element.classList.replace("btn-light", "btn-primary");
-			} else {
-				if (l1) {
-					return;
-				}
-			}
+			// } else {
+			// }
 			
 			mode = "right";
 			clicked = 1;
@@ -60,15 +61,19 @@ export default function Q4() {
 	
 	const secondleftbut = () => {
 		if(mode == "left"){
-			if (first) {
-				let element = document.getElementsByClassName("c1")[0];
-				element.classList.replace("btn-primary", "btn-light");
-				element = document.getElementsByClassName("c2")[0];
-				element.classList.replace("btn-primary", "btn-light");
-				element = document.getElementsByClassName("c3")[0];
-				element.classList.replace("btn-primary", "btn-light");
-				element = document.getElementsByClassName("c4")[0];
-				element.classList.replace("btn-primary", "btn-light");
+			if (l2) {
+				return;
+			}
+			// if (first) {
+				let element = document.getElementsByClassName("c2")[0];
+				element.classList.add("border");
+				// element.classList.replace("btn-primary", "btn-light");
+				// element = document.getElementsByClassName("c2")[0];
+				// element.classList.replace("btn-primary", "btn-light");
+				// element = document.getElementsByClassName("c3")[0];
+				// element.classList.replace("btn-primary", "btn-light");
+				// element = document.getElementsByClassName("c4")[0];
+				// element.classList.replace("btn-primary", "btn-light");
 	
 				element = document.getElementsByClassName("d1")[0];
 				element.classList.replace("btn-light", "btn-primary");
@@ -78,11 +83,8 @@ export default function Q4() {
 				element.classList.replace("btn-light", "btn-primary");
 				element = document.getElementsByClassName("d4")[0];
 				element.classList.replace("btn-light", "btn-primary");
-			} else {
-				if (l2) {
-					return;
-				}
-			}
+			// } else {
+			// }
 	
 			mode = "right";
 			clicked = 2;
@@ -92,15 +94,19 @@ export default function Q4() {
 	
 	const thirdleftbut = () => {
 		if(mode == "left"){
-			if (first) {
-				let element = document.getElementsByClassName("c1")[0];
-				element.classList.replace("btn-primary", "btn-light");
-				element = document.getElementsByClassName("c2")[0];
-				element.classList.replace("btn-primary", "btn-light");
-				element = document.getElementsByClassName("c3")[0];
-				element.classList.replace("btn-primary", "btn-light");
-				element = document.getElementsByClassName("c4")[0];
-				element.classList.replace("btn-primary", "btn-light");
+			if (l3) {
+				return;
+			}
+			// if (first) {
+				let element = document.getElementsByClassName("c3 ")[0];
+				element.classList.add("border");
+				// element.classList.replace("btn-primary", "btn-light");
+				// element = document.getElementsByClassName("c2")[0];
+				// element.classList.replace("btn-primary", "btn-light");
+				// element = document.getElementsByClassName("c3")[0];
+				// element.classList.replace("btn-primary", "btn-light");
+				// element = document.getElementsByClassName("c4")[0];
+				// element.classList.replace("btn-primary", "btn-light");
 	
 				element = document.getElementsByClassName("d1")[0];
 				element.classList.replace("btn-light", "btn-primary");
@@ -110,11 +116,8 @@ export default function Q4() {
 				element.classList.replace("btn-light", "btn-primary");
 				element = document.getElementsByClassName("d4")[0];
 				element.classList.replace("btn-light", "btn-primary");
-			} else {
-				if (l3) {
-					return;
-				}
-			}
+			// } else {
+			// }
 			
 			mode = "right";
 			clicked = 3;
@@ -124,15 +127,20 @@ export default function Q4() {
 	
 	const forthleftbut = () => {
 		if(mode == "left"){
-			if (first) {
-				let element = document.getElementsByClassName("c1")[0];
-				element.classList.replace("btn-primary", "btn-light");
-				element = document.getElementsByClassName("c2")[0];
-				element.classList.replace("btn-primary", "btn-light");
-				element = document.getElementsByClassName("c3")[0];
-				element.classList.replace("btn-primary", "btn-light");
-				element = document.getElementsByClassName("c4")[0];
-				element.classList.replace("btn-primary", "btn-light");
+			if (l4) {
+				return;
+			}
+
+			// if (first) {
+				let element = document.getElementsByClassName("c4")[0];
+				element.classList.add("border");
+				// element.classList.replace("btn-primary", "btn-light");
+				// element = document.getElementsByClassName("c2")[0];
+				// element.classList.replace("btn-primary", "btn-light");
+				// element = document.getElementsByClassName("c3")[0];
+				// element.classList.replace("btn-primary", "btn-light");
+				// element = document.getElementsByClassName("c4")[0];
+				// element.classList.replace("btn-primary", "btn-light");
 	
 				element = document.getElementsByClassName("d1")[0];
 				element.classList.replace("btn-light", "btn-primary");
@@ -142,11 +150,8 @@ export default function Q4() {
 				element.classList.replace("btn-light", "btn-primary");
 				element = document.getElementsByClassName("d4")[0];
 				element.classList.replace("btn-light", "btn-primary");
-			} else {
-				if (l4) {
-					return;
-				}
-			}
+			// } else {
+			// }
 			
 			mode = "right";
 			clicked = 4;
@@ -156,7 +161,10 @@ export default function Q4() {
 	
 	const firstrightbut = () => {
 		if (mode == "right") {
-			if (first) {
+			if (r1) {
+				return;
+			}
+			// if (first) {
 				
 				let element = document.getElementsByClassName("d1")[0];
 				element.classList.replace("btn-primary", "btn-light");
@@ -166,11 +174,8 @@ export default function Q4() {
 				element.classList.replace("btn-primary", "btn-light");
 				element = document.getElementsByClassName("d4")[0];
 				element.classList.replace("btn-primary", "btn-light");
-			} else {
-				if (r1) {
-					return;
-				}
-			}
+			// } else {
+			// }
 
 			var firstleft1 = document.getElementsByClassName("ro")[0];
 			var secondleft1 = document.getElementsByClassName("ro")[1];
@@ -181,18 +186,26 @@ export default function Q4() {
 				firstleft1.insertAdjacentHTML('beforeend','<connection from="#d11" to="#d21" tail></connection>');
 				let element = document.getElementsByClassName("d1")[0];
 				element.insertAdjacentHTML('beforeend',' <div class = "numbers">1</div>');
+				element = document.getElementsByClassName("c1")[0];
+				element.classList.remove("border");
 			} else if (clicked == 2) {
 				secondleft1.insertAdjacentHTML('beforeend','<connection from="#d12" to="#d21" tail></connection>');
 				let element = document.getElementsByClassName("d1")[0];
 				element.insertAdjacentHTML('beforeend',' <div class = "numbers">2</div>');
+				element = document.getElementsByClassName("c2")[0];
+				element.classList.remove("border");
 			} else if (clicked == 3) {
 				thirdleft1.insertAdjacentHTML('beforeend','<connection from="#d13" to="#d21" tail></connection>');
 				let element = document.getElementsByClassName("d1")[0];
 				element.insertAdjacentHTML('beforeend',' <div class = "numbers">3</div>');
+				element = document.getElementsByClassName("c3")[0];
+				element.classList.remove("border");
 			} else if (clicked == 4) {
 				forthleft1.insertAdjacentHTML('beforeend','<connection from="#d14" to="#d21" tail></connection>');
 				let element = document.getElementsByClassName("d1")[0];
 				element.insertAdjacentHTML('beforeend',' <div class = "numbers">4</div>');
+				element = document.getElementsByClassName("c4")[0];
+				element.classList.remove("border");
 			} 
 	
 			mode = "left";
@@ -203,7 +216,10 @@ export default function Q4() {
 	
 	const secondrightbut = () => {
 		if (mode == "right") {
-			if (first) {
+			if (r2) {
+				return;
+			}
+			// if (first) {
 				
 				let element = document.getElementsByClassName("d1")[0];
 				element.classList.replace("btn-primary", "btn-light");
@@ -213,11 +229,8 @@ export default function Q4() {
 				element.classList.replace("btn-primary", "btn-light");
 				element = document.getElementsByClassName("d4")[0];
 				element.classList.replace("btn-primary", "btn-light");
-			} else {
-				if (r2) {
-					return;
-				}
-			}
+			// } else {
+			// }
 
 			var firstleft1 = document.getElementsByClassName("ro")[0];
 			var secondleft1 = document.getElementsByClassName("ro")[1];
@@ -228,18 +241,26 @@ export default function Q4() {
 				firstleft1.insertAdjacentHTML('beforeend','<connection from="#d11" to="#d22" tail></connection>');
 				let element = document.getElementsByClassName("d2")[0];
 				element.insertAdjacentHTML('beforeend',' <div class = "numbers">1</div>');
+				element = document.getElementsByClassName("c1")[0];
+				element.classList.remove("border");
 			} else if (clicked == 2) {
 				secondleft1.insertAdjacentHTML('beforeend','<connection from="#d12" to="#d22" tail></connection>');
 				let element = document.getElementsByClassName("d2")[0];
 				element.insertAdjacentHTML('beforeend',' <div class = "numbers">2</div>');
+				element = document.getElementsByClassName("c2")[0];
+				element.classList.remove("border");
 			} else if (clicked == 3) {
 				thirdleft1.insertAdjacentHTML('beforeend','<connection from="#d13" to="#d22" tail></connection>');
 				let element = document.getElementsByClassName("d2")[0];
 				element.insertAdjacentHTML('beforeend',' <div class = "numbers">3</div>');
+				element = document.getElementsByClassName("c3")[0];
+				element.classList.remove("border");
 			} else if (clicked == 4) {
 				forthleft1.insertAdjacentHTML('beforeend','<connection from="#d14" to="#d22" tail></connection>');
 				let element = document.getElementsByClassName("d2")[0];
 				element.insertAdjacentHTML('beforeend',' <div class = "numbers">4</div>');
+				element = document.getElementsByClassName("c4")[0];
+				element.classList.remove("border");
 			}
 	
 			mode = "left";
@@ -250,7 +271,10 @@ export default function Q4() {
 	
 	const thirdrightbut = () => {
 		if (mode == "right") {
-			if (first) {
+			if (r3) {
+				return;
+			}
+			// if (first) {
 				
 				let element = document.getElementsByClassName("d1")[0];
 				element.classList.replace("btn-primary", "btn-light");
@@ -260,11 +284,8 @@ export default function Q4() {
 				element.classList.replace("btn-primary", "btn-light");
 				element = document.getElementsByClassName("d4")[0];
 				element.classList.replace("btn-primary", "btn-light");
-			} else {
-				if (r3) {
-					return;
-				}
-			}
+			// } else {
+			// }
 
 			var firstleft1 = document.getElementsByClassName("ro")[0];
 			var secondleft1 = document.getElementsByClassName("ro")[1];
@@ -275,18 +296,26 @@ export default function Q4() {
 				firstleft1.insertAdjacentHTML('beforeend','<connection from="#d11" to="#d23" tail></connection>');
 				let element = document.getElementsByClassName("d3")[0];
 				element.insertAdjacentHTML('beforeend',' <div class = "numbers">1</div>');
+				element = document.getElementsByClassName("c1")[0];
+				element.classList.remove("border");
 			} else if (clicked == 2) {
 				secondleft1.insertAdjacentHTML('beforeend','<connection from="#d12" to="#d23" tail></connection>');
 				let element = document.getElementsByClassName("d3")[0];
 				element.insertAdjacentHTML('beforeend',' <div class = "numbers">2</div>');
+				element = document.getElementsByClassName("c2")[0];
+				element.classList.remove("border");
 			} else if (clicked == 3) {
 				thirdleft1.insertAdjacentHTML('beforeend','<connection from="#d13" to="#d23" tail></connection>');
 				let element = document.getElementsByClassName("d3")[0];
 				element.insertAdjacentHTML('beforeend',' <div class = "numbers">3</div>');
+				element = document.getElementsByClassName("c3")[0];
+				element.classList.remove("border");
 			} else if (clicked == 4) {
 				forthleft1.insertAdjacentHTML('beforeend','<connection from="#d14" to="#d23" tail></connection>');
 				let element = document.getElementsByClassName("d3")[0];
 				element.insertAdjacentHTML('beforeend',' <div class = "numbers">4</div>');
+				element = document.getElementsByClassName("c4")[0];
+				element.classList.remove("border");
 			}
 	
 			mode = "left";
@@ -297,7 +326,11 @@ export default function Q4() {
 	
 	const forthrightbut = () => {
 		if (mode == "right") {
-			if (first) {
+			if (r4) {
+				return;
+			}
+
+			// if (first) {
 				
 				let element = document.getElementsByClassName("d1")[0];
 				element.classList.replace("btn-primary", "btn-light");
@@ -307,11 +340,8 @@ export default function Q4() {
 				element.classList.replace("btn-primary", "btn-light");
 				element = document.getElementsByClassName("d4")[0];
 				element.classList.replace("btn-primary", "btn-light");
-			} else {
-				if (r4) {
-					return;
-				}
-			}
+			// } else {
+			// }
 
 			var firstleft1 = document.getElementsByClassName("ro")[0];
 			var secondleft1 = document.getElementsByClassName("ro")[1];
@@ -322,18 +352,26 @@ export default function Q4() {
 				firstleft1.insertAdjacentHTML('beforeend','<connection from="#d11" to="#d24" tail></connection>');
 				let element = document.getElementsByClassName("d4")[0];
 				element.insertAdjacentHTML('beforeend',' <div class = "numbers">1</div>');
+				element = document.getElementsByClassName("c1")[0];
+				element.classList.remove("border");
 			} else if (clicked == 2) {
 				secondleft1.insertAdjacentHTML('beforeend','<connection from="#d12" to="#d24" tail></connection>');
 				let element = document.getElementsByClassName("d4")[0];
 				element.insertAdjacentHTML('beforeend',' <div class = "numbers">2</div>');
+				element = document.getElementsByClassName("c2")[0];
+				element.classList.remove("border");
 			} else if (clicked == 3) {
 				thirdleft1.insertAdjacentHTML('beforeend','<connection from="#d13" to="#d24" tail></connection>');
 				let element = document.getElementsByClassName("d4")[0];
 				element.insertAdjacentHTML('beforeend',' <div class = "numbers">3</div>');
+				element = document.getElementsByClassName("c3")[0];
+				element.classList.remove("border");
 			} else if (clicked == 4) {
 				forthleft1.insertAdjacentHTML('beforeend','<connection from="#d14" to="#d24" tail></connection>');
 				let element = document.getElementsByClassName("d4")[0];
 				element.insertAdjacentHTML('beforeend',' <div class = "numbers">4</div>');
+				element = document.getElementsByClassName("c4")[0];
+				element.classList.remove("border");
 			}
 	
 			mode = "left";
@@ -368,22 +406,22 @@ export default function Q4() {
 						<div class ="half">
 							<div class = "ro" onClick={firstleftbut}>
 								1) 
-								<button type="button" class="btn btn-primary c1">Chennai Super Kings</button>
+								<button type="button" class="btn2 c1">Chennai Super Kings</button>
 								<div id="d11"></div>
 							</div>
 							<div class = "ro" onClick={secondleftbut}>
 								2) 
-								<button type="button" class="btn btn-primary c2">Mumbai Indians</button>
+								<button type="button" class="btn2 c2">Mumbai Indians</button>
 								<div id="d12"></div>
 							</div>
 							<div class = "ro" onClick={thirdleftbut}>
 								3) 
-								<button type="button" class="btn btn-primary c3">Kolkata Knight Riders</button>
+								<button type="button" class="btn2 c3">Kolkata Knight Riders</button>
 								<div id="d13"></div>
 							</div>
 							<div class = "ro" onClick={forthleftbut}>
 								4) 
-								<button type="button" class="btn btn-primary c4">Royal Challengers Bangalore</button>
+								<button type="button" class="btn2 c4">Royal Challengers Bangalore</button>
 								<div id="d14"></div>
 							</div>
 						</div>
