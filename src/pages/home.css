@@ -1,0 +1,17 @@
+.cont {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/IPL-Quiz.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pos {
+    margin-top: calc(100vh - 80px);
+    height: 46px;
+  }
