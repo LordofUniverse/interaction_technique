@@ -16,7 +16,7 @@ export default function Q1() {
 	const q2 = () => {
 		const endDate = new Date();
 		const spentTime = endDate.getTime() - time.getTime();
-		navigate("/Q2", { state: { q1time: spentTime } });
+		navigate("/Q2", { replace: true, state: { q1time: spentTime } });
 	}
 
 	return (

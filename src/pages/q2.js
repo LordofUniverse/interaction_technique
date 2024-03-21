@@ -8,20 +8,19 @@ export default function Q2() {
 	const navigate = useNavigate();
 	const { state } = useLocation();
 	const { q1time } = state;
-	console.log(q1time);
 
 	const [time2, setTime] = useState(new Date());
 
 	const q3 = () => {
 		const endDate = new Date();
 		const spentTime = endDate.getTime() - time2.getTime();
-		navigate("/Q3", { state: { q2time: spentTime, q1time: q1time } });
+		navigate("/Q3", { replace: true, state: { q2time: spentTime, q1time: q1time } });
 	}
 
 	const q1 = () => {
 		const endDate = new Date();
 		const spentTime = endDate.getTime() - time2.getTime();
-		navigate("/Q1", { state: { q2time: spentTime, q1time: q1time } });
+		navigate("/Q1", { replace: true, state: { q2time: spentTime, q1time: q1time } });
 	}
 
 	return (

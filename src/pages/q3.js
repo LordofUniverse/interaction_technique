@@ -18,13 +18,13 @@ export default function Q3() {
 	const q4 = () => {
 		const endDate = new Date();
 		const spentTime = endDate.getTime() - time2.getTime();
-		navigate("/Q4", { state: { q3time: spentTime, q2time: q2time, q1time: q1time } });
+		navigate("/Q4", { replace: true, state: { q3time: spentTime, q2time: q2time, q1time: q1time } });
 	}
 	
 	const q2 = () => {
 		const endDate = new Date();
 		const spentTime = endDate.getTime() - time2.getTime();
-		navigate("/Q2", { state: { q3time: spentTime, q2time: q2time, q1time: q1time } });
+		navigate("/Q2", { replace: true, state: { q3time: spentTime, q2time: q2time, q1time: q1time } });
 	}
 
 	return (

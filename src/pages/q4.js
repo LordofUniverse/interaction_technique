@@ -383,13 +383,13 @@ export default function Q4() {
 	const q3 = () => {
 		const endDate = new Date();
 		const spentTime = endDate.getTime() - time2.getTime();
-		navigate("/Q3", { state: { q4time: spentTime, q3time: q3time, q2time: q2time, q1time: q1time } });
+		navigate("/Q3", { replace: true, state: { q4time: spentTime, q3time: q3time, q2time: q2time, q1time: q1time } });
 	}
 
 	const q5 = () => {
 		const endDate = new Date();
 		const spentTime = endDate.getTime() - time2.getTime();
-		navigate("/Q5", { state: { q4time: spentTime, q3time: q3time, q2time: q2time, q1time: q1time } });
+		navigate("/Q5", { replace: true, state: { q4time: spentTime, q3time: q3time, q2time: q2time, q1time: q1time } });
 	}
 
 	return (
